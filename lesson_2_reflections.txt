@@ -21,3 +21,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	A new commit is formed that combines the changes at the tips of the two merged branches. We represent it as a convergence of branches because it will point back to both its parent branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Automatic merging is useful to combine changes to code that both work cooperatively until the conflict is unresolvable because of ambiguity, which saves time. Always doing merges manually can get tedious when people are simply adding unrelated contribuations.
